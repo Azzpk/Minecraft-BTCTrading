@@ -1,0 +1,16 @@
+# 插件的基本信息
+name: BTC-TRADING # 你插件的名称
+version: 1.0.0 # 插件版本
+main: com.zhangzipei.btcplugin.BTCPlugin # 替换成你的包名和主类名，非常重要！
+api-version: 1.21 # 目标API版本
+
+# 插件描述
+description: A simple BTC economy plugin.
+author: zhangzipei # 你的名字
+
+# 插件命令（这里我们先定义一个打开菜单的命令）
+commands:
+  btcgui:
+    description: Opens the BTC menu.
+    usage: "Usage: /<command>"
+    aliases: [btc, btcmenu] # 命令别名，玩家也可以用 /btc 或 /btcmenu 触发
